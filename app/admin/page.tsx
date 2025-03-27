@@ -362,7 +362,7 @@ const AdminDashboard = () => {
   // -----------------------------
   // Users: Create / Update / Delete
   // -----------------------------
-  const FIREBASE_FUNCTIONS_BASE_URL = "https://us-central1-thesis1-d9ca1.cloudfunctions.net";
+  const FIREBASE_FUNCTIONS_BASE_URL = "YOUR FUNCTIONS BASE URL";
 
   const handleUserSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -391,7 +391,7 @@ const AdminDashboard = () => {
     }
   
     // Base URL for Firebase Cloud Functions.
-    const FIREBASE_FUNCTIONS_BASE_URL = "https://us-central1-thesis1-d9ca1.cloudfunctions.net";
+    const FIREBASE_FUNCTIONS_BASE_URL = "YOUR FUNCTIONS BASE URL";
   
     if (!editUserId) {
       // New user creation: generate a random password.
