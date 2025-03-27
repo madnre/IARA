@@ -18,5 +18,5 @@ Note: Certain configuration files (e.g., Firebase keys) may be intentionally mis
 
 Thesis Paper
 
-For a comprehensive overview of the system’s design, methodology, and evaluation, please refer to the Thesis Document.
-[Thesis Document](https://docs.google.com/document/d/100LYfCMeaMxzbtgm6SQikcMHMUZzHtNrxQ6-6_-wNYI/edit?tab=t.0)
+For a comprehensive overview of the system’s design, methodology, and evaluation, please refer to the [Thesis Document](https://docs.google.com/document/d/100LYfCMeaMxzbtgm6SQikcMHMUZzHtNrxQ6-6_-wNYI/edit?tab=t.0).
+
