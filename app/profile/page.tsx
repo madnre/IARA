@@ -29,7 +29,7 @@ const ProfilePage = () => {
   const [showNewPassword, setShowNewPassword] = useState(false);
   const [showConfirmNewPassword, setShowConfirmNewPassword] = useState(false);
   const router = useRouter();
-  const FIREBASE_FUNCTIONS_BASE_URL = "https://us-central1-thesis1-d9ca1.cloudfunctions.net";
+  const FIREBASE_FUNCTIONS_BASE_URL = "YOUR FUNCTIONS BASE URL";
 
   useEffect(() => {
     const storedData = localStorage.getItem("userData");
