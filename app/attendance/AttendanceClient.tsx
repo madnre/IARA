@@ -34,14 +34,13 @@ ChartJS.register(ArcElement, BarElement, CategoryScale, LinearScale, Tooltip, Le
 
 /* ----------------- Firebase Setup ----------------- */
 const firebaseConfig = {
-  apiKey: "AIzaSy...",
-  authDomain: "thesis1-d9ca1.firebaseapp.com",
-  databaseURL:
-    "https://thesis1-d9ca1-default-rtdb.asia-southeast1.firebasedatabase.app",
-  projectId: "thesis1-d9ca1",
-  storageBucket: "thesis1-d9ca1.appspot.com",
-  messagingSenderId: "580502261923",
-  appId: "1:580502261923:web:118e25db3891bd8f1bef16",
+  apiKey: "your-api-key",
+  authDomain: "your-auth-domain",
+  databaseURL: "your-database-url",
+  projectId: "your-project-id",
+  storageBucket: "your-storage-bucket",
+  messagingSenderId: "your-messaging-sender-id",
+  appId: "your-app-id",
 };
 
 const app = !getApps().length ? initializeApp(firebaseConfig) : getApps()[0];
