@@ -11,7 +11,9 @@ iara/
 │   ├── attendance/    # Attendance logging and display
 │   ├── profile/       # User profile and account details
 │   └── page/          # Main UI or routing
+│
 ├── index.js           # Cloud functions
+│
 └── qrcodetest1/
     └── src/
         └── main.cpp   # ESP32-CAM firmware (QR scanning logic)
