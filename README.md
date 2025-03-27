@@ -17,7 +17,6 @@ iara/
 ```
 Note: Certain configuration files (e.g., Firebase keys) may be intentionally missing and must be provided separately.
 
-Thesis Reference
-
+## Thesis Reference
 For more detailed information about this project, refer to:
 [Thesis Paper](https://docs.google.com/document/d/100LYfCMeaMxzbtgm6SQikcMHMUZzHtNrxQ6-6_-wNYI/edit?usp=sharing)
