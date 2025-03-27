@@ -10,9 +10,6 @@ Features
     Modular Architecture: Separate folders for admin, attendance, and user profiles.
 
     ESP32-CAM Integration: Firmware handles scanning logic and hardware control.
-
-Directory Structure
-
 iara/
 ├── app/
 │   ├── admin/         # Admin dashboard components
