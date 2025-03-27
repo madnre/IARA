@@ -284,7 +284,7 @@ exports.sendEmail = functions.https.onRequest((req, res) => {
       // Construct the email
       const msg = {
         to: email,
-        from: "iara.system.1@gmail.com", // Must be verified in SendGrid
+        from: "from your email", // Must be verified in SendGrid
         subject: "Your Account Credentials",
         text: `Hello,
 
@@ -471,8 +471,8 @@ Attendance System`;
 
         // All emails go to the same address  
         const msg = {  
-          to: "mattusama427@gmail.com",  
-          from: "iara.system.1@gmail.com",  
+          to: "",  
+          from: "",  
           subject,  
           text,  
         };  
