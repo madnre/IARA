@@ -20,10 +20,7 @@ WiFiMulti wifiMulti;
 const String scannerIdTimeIn = "room_1_esp32cam_2";  // For time-in scans
 const String scannerIdTimeOut = "room_1_esp32cam_2"; // For time-out scans (or any other value)
 
-// WiFi credentials and Firebase URL remain the same.
-const char *ssid = "HUAWEI-2.4G-4uG9";
-const char *password = "qZnbt34c";
-const char *apiUrl = "https://thesis1-d9ca1-default-rtdb.asia-southeast1.firebasedatabase.app/";
+const char *apiUrl = "YOUR API URL HERE";
 
 // Define QR code reader, time offsets, etc.
 ESP32QRCodeReader reader(CAMERA_MODEL_AI_THINKER);
