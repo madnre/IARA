@@ -10,15 +10,16 @@ Features
     Modular Architecture: Separate folders for admin, attendance, and user profiles.
 
     ESP32-CAM Integration: Firmware handles scanning logic and hardware control.
+```bash
 iara/
 ├── app/
-│   ├── admin/         # Admin dashboard components
-│   ├── attendance/    # Attendance logging and display
-│   ├── profile/       # User profile and account details
-│   └── page/          # Main UI or routing
+│   ├── admin/
+│   ├── attendance/
+│   ├── profile/
+│   └── page/
 └── qrcodetest1/
     └── src/
-        └── main.cpp   # ESP32-CAM firmware (QR scanning logic)
+        └── main.cpp
 
     Note: Certain configuration files (e.g., Firebase keys) may be intentionally missing and must be provided separately.
 
